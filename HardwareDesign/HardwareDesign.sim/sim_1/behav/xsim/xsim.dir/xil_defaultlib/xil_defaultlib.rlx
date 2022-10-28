@@ -1,0 +1,17 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/Desktop/9191160D0236Íõ×Ó»Ô/HardwareDesign/HardwareDesign.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/HardwareDesign/HardwareDesign/adder.v,1662476725,verilog,,E:/HardwareDesign/HardwareDesign/alu.v,,adder,,,,,,,,
+E:/HardwareDesign/HardwareDesign/alu.v,1662638891,verilog,,E:/HardwareDesign/HardwareDesign/data_ram.v,E:/HardwareDesign/HardwareDesign/adder.v,alu,,,,,,,,
+E:/HardwareDesign/HardwareDesign/data_ram.v,1662638557,verilog,,E:/HardwareDesign/HardwareDesign/inst_rom.v,,data_ram,,,,,,,,
+E:/HardwareDesign/HardwareDesign/inst_rom.v,1662706032,verilog,,E:/HardwareDesign/HardwareDesign/multi_cycle_cpu.v,,inst_rom,,,,,,,,
+E:/HardwareDesign/HardwareDesign/multi_cycle_cpu.v,1662562407,verilog,,E:/HardwareDesign/HardwareDesign/regfile.v,E:/HardwareDesign/HardwareDesign/st1_fetch.v;E:/HardwareDesign/HardwareDesign/st2_decode.v;E:/HardwareDesign/HardwareDesign/st3_exe.v;E:/HardwareDesign/HardwareDesign/st4_mem.v;E:/HardwareDesign/HardwareDesign/st5_wb.v;E:/HardwareDesign/HardwareDesign/inst_rom.v;E:/HardwareDesign/HardwareDesign/data_ram.v;E:/HardwareDesign/HardwareDesign/regfile.v,multi_cycle_cpu,,,,,,,,
+E:/HardwareDesign/HardwareDesign/regfile.v,1662568242,verilog,,E:/HardwareDesign/HardwareDesign/st1_fetch.v,,regfile,,,,,,,,
+E:/HardwareDesign/HardwareDesign/st1_fetch.v,1662562652,verilog,,E:/HardwareDesign/HardwareDesign/st2_decode.v,,st1_fetch,,,,,,,,
+E:/HardwareDesign/HardwareDesign/st2_decode.v,1662540348,verilog,,E:/HardwareDesign/HardwareDesign/st3_exe.v,,st2_decode,,,,,,,,
+E:/HardwareDesign/HardwareDesign/st3_exe.v,1662562204,verilog,,E:/HardwareDesign/HardwareDesign/st4_mem.v,E:/HardwareDesign/HardwareDesign/alu.v,st3_exe,,,,,,,,
+E:/HardwareDesign/HardwareDesign/st4_mem.v,1662567975,verilog,,E:/HardwareDesign/HardwareDesign/st5_wb.v,,st4_mem,,,,,,,,
+E:/HardwareDesign/HardwareDesign/st5_wb.v,1662562242,verilog,,E:/HardwareDesign/HardwareDesign/test_multi_cycle_cpu.v,,st5_wb,,,,,,,,
+E:/HardwareDesign/HardwareDesign/test_multi_cycle_cpu.v,1662709127,verilog,,,,test_multi_cycle_cpu,,,,,,,,

@@ -1,0 +1,26 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto d2eb11f40ed0464a8259b19931d01e4d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_multi_cycle_cpu_behav xil_defaultlib.test_multi_cycle_cpu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 32 for port 'display_state' [E:/HardwareDesign/HardwareDesign/test_multi_cycle_cpu.v:31]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 5 for port 'addr' [E:/HardwareDesign/HardwareDesign/multi_cycle_cpu.v:277]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.st1_fetch
+Compiling module xil_defaultlib.st2_decode
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.st3_exe
+Compiling module xil_defaultlib.st4_mem
+Compiling module xil_defaultlib.st5_wb
+Compiling module xil_defaultlib.inst_rom
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.multi_cycle_cpu
+Compiling module xil_defaultlib.test_multi_cycle_cpu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_multi_cycle_cpu_behav

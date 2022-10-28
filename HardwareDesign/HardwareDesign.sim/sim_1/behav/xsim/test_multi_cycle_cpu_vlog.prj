@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"E:/HardwareDesign/HardwareDesign/multi_cycle_cpu.v" \
+"E:/HardwareDesign/HardwareDesign/regfile.v" \
+"E:/HardwareDesign/HardwareDesign/st1_fetch.v" \
+"E:/HardwareDesign/HardwareDesign/st2_decode.v" \
+"E:/HardwareDesign/HardwareDesign/st3_exe.v" \
+"E:/HardwareDesign/HardwareDesign/st4_mem.v" \
+"E:/HardwareDesign/HardwareDesign/st5_wb.v" \
+"E:/HardwareDesign/HardwareDesign/test_multi_cycle_cpu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

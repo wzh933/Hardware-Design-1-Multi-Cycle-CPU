@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Sep  7 22:48:45 2022
+# Process ID: 3116
+# Current directory: E:/VIVADO_Files/HardwareDesign
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19212 E:\VIVADO_Files\HardwareDesign\HardwareDesign.xpr
+# Log file: E:/VIVADO_Files/HardwareDesign/vivado.log
+# Journal file: E:/VIVADO_Files/HardwareDesign\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/VIVADO_Files/HardwareDesign/HardwareDesign.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse E:/HardwareDesign/HardwareDesign/test_multi_cycle_cpu.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
+launch_simulation
+source test_multi_cycle_cpu.tcl
+close_sim
